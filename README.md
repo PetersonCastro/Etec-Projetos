@@ -1,2 +1,4 @@
 # Theboys
-PrimeiroRepositorio Git e Github
+PrimeiroRepositório Git e Github
+
+Projeto como aprendizado TheBoys
