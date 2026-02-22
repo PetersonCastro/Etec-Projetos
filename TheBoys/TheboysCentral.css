@@ -53,11 +53,13 @@ header {
 
 
 .omni {
+    height: 300px;
+    width: 370px;
+    background: #ca4d4d;
 
     display: block;
     position: relative;
-        left: -10%;
-    
+        left: -4%;
 }
 
 .theboys {
@@ -176,7 +178,8 @@ header {
 
 .geral {
     display: flex;
-    justify-content: space-around;
+    gap: 140px;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
