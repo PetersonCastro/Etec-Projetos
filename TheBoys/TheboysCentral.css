@@ -16,6 +16,7 @@ body {
 }
 
 footer {
+    display: flex;
     background-color: rgb(244, 244, 244);
     padding: 10px;
     text-align: center;
@@ -32,43 +33,12 @@ header {
     justify-content: space-between;
 }
 
-.login-button {
-    position: relative;
-        left: 85%;
-        top: -70px;
-    
-
-    font: inherit;
-    background-color: #f0f0f0;
-    border: 0;
-    color: #242424;
-    border-radius: 0.5em;
-    font-size: 1.35rem;
-    padding: 0.375em 1em;
-    font-weight: 600;
-    text-shadow: 0 0.0625em 0 #fff;
-    box-shadow: inset 0 0.0625em 0 0 #f4f4f4, 0 0.0625em 0 0 #efefef,
-        0 0.125em 0 0 #ececec, 0 0.25em 0 0 #e0e0e0, 0 0.3125em 0 0 #dedede,
-        0 0.375em 0 0 #dcdcdc, 0 0.425em 0 0 #cacaca, 0 0.425em 0.5em 0 #cecece;
-    transition: 0.15s ease;
-    cursor: pointer;
-}
-.login-button:active {
-    translate: 0 0.225em;
-    box-shadow: inset 0 0.03em 0 0 #f4f4f4, 0 0.03em 0 0 #efefef,
-        0 0.0625em 0 0 #ececec, 0 0.125em 0 0 #e0e0e0, 0 0.125em 0 0 #dedede,
-        0 0.2em 0 0 #dcdcdc, 0 0.225em 0 0 #cacaca, 0 0.225em 0.375em 0 #cecece;
-}
 
 .explode-btn {
     font-size: 50px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 0% 100% 0% 100%;;
-    border-bottom: #e8311d;
-    border-top: #e6210b;
-    border-left: #e6210b;
-    border-right: #e6210b;
     margin-bottom: 1%;
+    background-color: transparent;
+    border: none;
 
     /* Animação de explosão */
     cursor: pointer;
@@ -76,9 +46,9 @@ header {
     
 
 }
-.explode-btn:hover {
+.explode-btn:active {
     background: #ffffff;
-    transform: scale(1.2);
+    transform: scale(0.9, 0.9); /* aumenta levemente */
 }
 
 
@@ -99,13 +69,15 @@ header {
 
 /* -------------Menu de Botoes---------------*/
 .menu-button {
+    display: flex;
   cursor: pointer;
   transition: 0.3s; /* ativa a animação */
 }
 
 .menu-button:active {
-  background: #e6210b;
-  transform: scale(0.8, 0.8); /* aumenta levemente */
+    display: flex;
+    background: #e6210b;
+    transform: scale(0.8, 0.8); /* aumenta levemente */
 }
 
 .menu {
@@ -114,12 +86,14 @@ header {
 }
 
 .menu{
+    display: flex;
     background-color: rgb(187, 187, 187);
     padding: 20px 100px;
     
 }
 
 .menu-button{
+    display: flex;
     background-color: rgb(186, 19, 1);
     color: rgb(255, 255, 255);
     border: none;
@@ -139,6 +113,7 @@ header {
 
 /* Estilo para o conteúdo principal */
 .content {
+    display: flex;
     margin-top: 80px;
 
     height: 30vh;
@@ -169,7 +144,8 @@ header {
     
 }
 
-.content2 { 
+.content2 {
+    display: flex; 
     margin-top: 80px;
 
     height: 30vh;
